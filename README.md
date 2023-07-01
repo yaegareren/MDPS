@@ -1,7 +1,5 @@
 # Multiple Disease Prediction System
 
-![Disease Prediction](prediction-image.png)
-
 The Multiple Disease Prediction System is a machine learning project that can predict test results for heart disease, Parkinson's disease, and diabetes. It utilizes the logistic regression algorithm to make accurate predictions. The model has been efficiently trained with ample train data and has also been tested using test data. The users need to enter the data according to the fields specified for each test.
 
 ## Key Features
