@@ -14,16 +14,13 @@ st.set_page_config(
     page_icon="capsule-pill",
 )
 
-# loading the saved models 
+# loading the saved models
 
-diabetes_model = pickle.load(open('D:/MDPS/saved models/diabetes_model.sav', 'rb'))
+diabetes_model = pickle.load(open('diabetes_model.sav', 'rb'))
 
-heart_disease_model = pickle.load(open('D:/MDPS/saved models/heart_model.sav', 'rb')) 
+heart_disease_model = pickle.load(open('heart_disease_model.sav', 'rb'))
 
-parkinsons_model = pickle.load(open('D:/MDPS/saved models/Parkinsons_model.sav', 'rb'))
-
-breast_cancer_model = pickle.load(open('D:/MDPS/saved models/cancer_model.sav', 'rb'))
-
+parkinsons_model = pickle.load(open('parkinsons_model.sav', 'rb'))
 
 # sidebar for navigation
 with st.sidebar:
